@@ -1,6 +1,7 @@
 # veloth.vim
 
-Veloth is a vim colorscheme based off of [veloce/vim-aldmeris](https://github.com/veloce/vim-aldmeris).
+Veloth is a vim colorscheme based off of
+[veloce/vim-aldmeris](https://github.com/veloce/vim-aldmeris).
 
 Features:
 
@@ -18,7 +19,7 @@ Downloard veloth.vim and install in ~/.vim/colors. You can also use
 [pathogen.vim](https://github.com/tpope/vim-pathogen):
 
     cd ~/.vim/bundle
-    git clone git://github.com/veloce/vim-veloth.git
+    git clone git://github.com/numinit/vim-veloth.git
 
 Try it out with
 
