@@ -1,7 +1,6 @@
-aldmeris.vim
-============
+# veloth.vim
 
-Aldmeris is a vim colorscheme based on oblivion for gedit.
+Veloth is a vim colorscheme based off of [veloce/vim-aldmeris](https://github.com/veloce/vim-aldmeris).
 
 Features:
 
@@ -15,22 +14,22 @@ with a tango palette, the result is very close to the gui version
 
 ## Installation
 
-Downloard aldmeris.vim and install in ~/.vim/colors. You can also use
+Downloard veloth.vim and install in ~/.vim/colors. You can also use
 [pathogen.vim](https://github.com/tpope/vim-pathogen):
 
     cd ~/.vim/bundle
-    git clone git://github.com/veloce/vim-aldmeris.git
+    git clone git://github.com/veloce/vim-veloth.git
 
 Try it out with
 
-    :colorscheme aldmeris
+    :colorscheme veloth
 
 If you want to make it the default, add that command to your vimrc or gvimrc.
 
 If your terminal uses the tango palette as system colors, please add this to
 your vimrc to obtain best results:
 
-    let g:aldmeris_termcolors = "tango"
+    let g:veloth_termcolors = "tango"
 
 Here is the tango palette to put in a `.Xresources` file:
 
@@ -62,17 +61,5 @@ Here is the tango palette to put in a `.Xresources` file:
 If you wish to use a transparent terminal, you can put this option in your
 vimrc:
 
-    let g:aldmeris_transparent = 1
-
-## Screenshots
-
-Ruby example on a terminal:
-
-![Ruby in terminal](https://github.com/veloce/vim-aldmeris/raw/master/
-screenshots/aldmeris-small.png "Ruby in terminal")
-
-Fugitive commit example:
-
-![Fugitive commit](https://github.com/veloce/vim-aldmeris/raw/master/
-screenshots/aldmeris-gstatus.png "Fugitive commit")
+    let g:veloth_transparent = 1
 

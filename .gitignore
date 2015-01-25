@@ -1,0 +1,6 @@
+# Tempfiles
+.DS_Store
+*.swp
+*.swo
+*.swm
+*.swn

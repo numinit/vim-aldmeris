@@ -1,22 +1,17 @@
 " Vim color scheme
-" Name:         aldmeris.vim
-" Maintainer:   Vincent Velociter <vincent.velociter@gmail.com>
-" Version:      1.2
-" Url:          https://github.com/veloce/vim-aldmeris
-
-" Aldmeris is based on the gedit oblivion theme for vim.
-" The original theme is part of GtkSourceView.
-" Original author: Paolo Borelli <pborelli@gnome.org>.
-"
+" Name:         veloth.vim
+" Maintainer:   Morgan Jones <numinit@rice.edu>
+" Version:      1.0
+" Url:          https://github.com/numinit/vim-veloth
 
 " Usage {{{
 " ------------
 " NOTE FOR TERMINAL USERS:
 " -----------------------
-" If you wish to use aldmeris with a transparent terminal, you can set this
+" If you wish to use veloth with a transparent terminal, you can set this
 " option in your .vimrc:
 "
-"   let g:aldmeris_transparent = 1
+"   let g:veloth_transparent = 1
 "
 " The colorscheme is compatible with terminals that support 256 colors. See:
 "
@@ -24,9 +19,9 @@
 "
 " If your terminal uses the tango palette for its base colors (which is,
 " I believe, the default in gnome-terminal), you can obtain the most accurate
-" result with aldmeris by setting this option in your .vimrc:
+" result with veloth by setting this option in your .vimrc:
 "
-"   let g:aldmeris_termcolors = "tango"
+"   let g:veloth_termcolors = "tango"
 "
 " Below is an .Xdefaults example of that palette:
 "
@@ -97,7 +92,7 @@ if exists("syntax_on")
    syntax reset
 endif
 
-let g:colors_name = "aldmeris"
+let g:colors_name = "veloth"
 " }}}
 " Custom highlight function {{{
 if has("gui_running")
@@ -115,12 +110,12 @@ endfunc
 " }}}
 " Default options and env settings {{{
 " --------------------------------
-if !exists("g:aldmeris_termcolors")
-    let g:aldmeris_termcolors = "xterm"
+if !exists("g:veloth_termcolors")
+    let g:veloth_termcolors = "xterm"
 endif
 " option to disable bg color for transparent terminals
-if !exists("g:aldmeris_transparent")
-    let g:aldmeris_transparent = 0
+if !exists("g:veloth_transparent")
+    let g:veloth_transparent = 0
 endif
 " List terminals that support italics (I'm sure only for xrvt)
 let s:terms_italic = ["rxvt", "rxvt-unicode", "rxvt-unicode-256color"]
@@ -148,7 +143,7 @@ if has("gui_running")
     let s:aluminium5  = "#555753"
     let s:aluminium6  = "#2e3436"
     let s:black       = "#000000"
-elseif &t_Co == 256 && g:aldmeris_termcolors == "tango"
+elseif &t_Co == 256 && g:veloth_termcolors == "tango"
     let s:butter1     = "11"
     let s:butter2     = "220"
     let s:chameleon1  = "10"
@@ -212,7 +207,7 @@ else
     let s:aluminium6  = "DarkGrey"
     let s:black       = "Black"
 endif
-if (!has("gui_running") && g:aldmeris_transparent == 1)
+if (!has("gui_running") && g:veloth_transparent == 1)
     let s:aluminium6 = "NONE"
 endif
 " }}}
