@@ -15,11 +15,11 @@ with a tango palette, the result is very close to the gui version
 
 ## Installation
 
-Downloard veloth.vim and install in ~/.vim/colors. You can also use
+Downloard veloth.vim and install in `~/.vim/colors`. You can also use
 [pathogen.vim](https://github.com/tpope/vim-pathogen):
 
     cd ~/.vim/bundle
-    git clone git://github.com/numinit/vim-veloth.git
+    git clone https://github.com/numinit/vim-veloth.git
 
 Try it out with
 
